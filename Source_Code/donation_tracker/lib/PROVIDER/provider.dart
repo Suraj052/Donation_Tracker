@@ -91,7 +91,7 @@ class CreatorProvider extends ChangeNotifier
       }
 
     //Multiple Donation to same creator
-    else if (creator.amount != amount)
+    else
     {
       Creator  creatorS = Creator(
         id : id,
